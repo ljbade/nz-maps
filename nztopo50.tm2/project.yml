@@ -1,0 +1,27 @@
+_prefs: 
+  mapid: ljbade.2a48f63b
+  saveCenter: false
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 174.0411
+  - -39.301
+  - 12
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 14
+minzoom: 12
+name: nztopo50
+source: "mapbox:///ljbade.62e96a51,ljbade.936268ef"
+styles: 
+  - style.mss
+template: ''

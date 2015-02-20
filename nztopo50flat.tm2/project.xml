@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#ffffff">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">174.0411,-39.301,12</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">14</Parameter>
+  <Parameter name="minzoom">12</Parameter>
+  <Parameter name="name"><![CDATA[nztopo50flat]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///ljbade.936268ef]]></Parameter>
+</Parameters>
+
+
+<Style name="island_polygons" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="island_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>island_polygons</StyleName>  </Layer>
+
+<Style name="coastlines" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="coastlines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>coastlines</StyleName>  </Layer>
+
+<Layer name="shingle_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="mast_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="satellite_station_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="fumarole_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="sportsfield_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="telephone_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="bivouac_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="geo_bore_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="buoy_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="wreck_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="rock_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="boom_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="dry_dock_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="scattered_scrub_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cableway_industrial_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="boatramp_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="soakhole_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="rock_outcrop_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="rail_station_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="redoubt_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="sinkhole_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="shoal_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="gravel_pit_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="racetrack_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="dam_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="pipeline_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="shelter_belt_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="swamp_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="orchard_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="building_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ski_lift_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="fence_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="siphon_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="shaft_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="snow_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="tank_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="slip_edges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="swamp_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="wharf_edges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="windmill_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="pumice_pit_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="moraine_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="stockyard_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="siphon_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="weir_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="rock_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="native_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#8fbc8f" fill-opacity="0.5" />
+    <LineSymbolizer stroke="#2e8b57" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+</Style>
+<Layer name="native_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>native_polygons</StyleName>  </Layer>
+
+<Layer name="well_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ski_tow_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="mine_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="mud_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cableway_people_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="floodgate_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cave_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="canal_centrelines" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="canal_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>canal_centrelines</StyleName>  </Layer>
+
+<Layer name="geographic_names"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="mangrove_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="tank_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="descriptive_texts"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="breakwater_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="beacon_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="walkwire_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ladder_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="tree_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="grave_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="spillway_edges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="fish_farm_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="dredge_tailing_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="radar_dome_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="gate_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="vineyard_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="flare_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="saddle_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="mine_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="exotic_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#9acd32" fill-opacity="0.5" />
+    <LineSymbolizer stroke="#228b22" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+</Style>
+<Layer name="exotic_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>exotic_polygons</StyleName>  </Layer>
+
+<Layer name="waterfall_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="landfill_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="slipway_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="reef_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="tunnel_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="marine_farm_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="scrub_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#90ee90" fill-opacity="0.5" />
+    <LineSymbolizer stroke="#008000" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+</Style>
+<Layer name="scrub_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>scrub_polygons</StyleName>  </Layer>
+
+<Layer name="pa_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="railway_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ice_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="runway_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="racetrack_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ladder_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="scree_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="moraine_wall_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cemetery_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="building_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="showground_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ford_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="drain_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="chimney_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="marine_farm_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="bridge_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="wharf_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="spring_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="airport_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="quarry_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cutting_edges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="embankment_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="golf_course_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="sand_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="monument_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="flume_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="historic_site_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="flume_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="rapid_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="pylon_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="powerline_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="waterfall_edges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="ferry_crossing_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="tower_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="gas_valve_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="waterfall_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cemetery_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="dredge_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="cattlestop_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="rifle_range_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="helipad_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Layer name="residential_area_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="contours" filter-mode="first">
+  <Rule>
+    <Filter>([elevation] = 200)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3400)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3300)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3200)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3100)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3000)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2900)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2800)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2700)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2600)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2500)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2400)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1800)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1700)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1600)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1500)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2300)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1400)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1300)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1200)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2200)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1100)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1000)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 900)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3700)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 800)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2100)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 1900)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3600)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 3500)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 700)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 600)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 100)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 2000)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 300)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 400)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <Filter>([elevation] = 500)</Filter>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="1" stroke-opacity="0.5" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <LineSymbolizer stroke="#ff8c00" stroke-width="0.5" stroke-opacity="0.5" />
+  </Rule>
+</Style>
+<Layer name="contours"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>contours</StyleName>  </Layer>
+
+<Style name="lake_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="lake_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>lake_polygons</StyleName>  </Layer>
+
+<Style name="lagoon_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="lagoon_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>lagoon_polygons</StyleName>  </Layer>
+
+<Style name="reservoir_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="reservoir_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>reservoir_polygons</StyleName>  </Layer>
+
+<Style name="pond_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="pond_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>pond_polygons</StyleName>  </Layer>
+
+<Style name="river_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="river_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>river_polygons</StyleName>  </Layer>
+
+<Style name="rapid_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="rapid_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>rapid_polygons</StyleName>  </Layer>
+
+<Style name="waterfall_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="waterfall_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>waterfall_polygons</StyleName>  </Layer>
+
+<Style name="river_centrelines" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="river_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>river_centrelines</StyleName>  </Layer>
+
+<Style name="canal_polygons" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#add8e6" />
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="canal_polygons"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>canal_polygons</StyleName>  </Layer>
+
+<Style name="water_race_centrelines" filter-mode="first">
+  <Rule>
+    <LineSymbolizer stroke="#6495ed" stroke-width="1" />
+  </Rule>
+</Style>
+<Layer name="water_race_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>water_race_centrelines</StyleName>  </Layer>
+
+<Layer name="cliff_edges"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="track_centrelines" filter-mode="first">
+  <Rule>
+    <Filter>([track_use] = 'vehicle') and ([track_type] = 'poled route')</Filter>
+    <LineSymbolizer stroke-dasharray="20, 4" stroke-linecap="round" stroke="#000000" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <Filter>([track_use] = 'vehicle')</Filter>
+    <LineSymbolizer stroke-dasharray="20, 4" stroke="#000000" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <Filter>([track_type] = 'poled route')</Filter>
+    <LineSymbolizer stroke-dasharray="1, 6" stroke-linecap="round" stroke="#000000" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <Filter>([status] = 'closed')</Filter>
+    <LineSymbolizer stroke-dasharray="8, 8" stroke="#000000" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <Filter>([track_use] = 'foot')</Filter>
+    <LineSymbolizer stroke-dasharray="8, 4" stroke="#000000" stroke-width="2" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#000000" stroke-width="2" />
+  </Rule>
+</Style>
+<Layer name="track_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>track_centrelines</StyleName>  </Layer>
+
+<Style name="road_centrelines-dash" filter-mode="first">
+  <Rule>
+    <Filter>([surface] = 'metalled') and ([lane_count] &gt; 2)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#ffffff" stroke-dasharray="8, 20" />
+  </Rule>
+  <Rule>
+    <Filter>([surface] = 'metalled') and ([lane_count] = 2)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#ffffff" stroke-dasharray="8, 20" />
+  </Rule>
+  <Rule>
+    <Filter>([surface] = 'metalled') and ([lane_count] = 1)</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#ffffff" stroke-dasharray="8, 20" />
+  </Rule>
+  <Rule>
+    <Filter>([surface] = 'metalled')</Filter>
+    <LineSymbolizer stroke="#ffffff" stroke-dasharray="8, 20" />
+  </Rule>
+</Style>
+<Style name="road_centrelines-centre" filter-mode="first">
+  <Rule>
+    <Filter>([lane_count] &gt; 2) and ([hway_num] != '')</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#dc143c" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] &gt; 2) and ([surface] = 'unmetalled')</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#ffffff" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] &gt; 2)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#ff8c00" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 2) and ([hway_num] != '')</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#dc143c" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 2) and ([surface] = 'unmetalled')</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#ffffff" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 2)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#ff8c00" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 1) and ([hway_num] != '')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#dc143c" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 1) and ([surface] = 'unmetalled')</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#ffffff" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 1)</Filter>
+    <LineSymbolizer stroke-width="2" stroke="#ff8c00" />
+  </Rule>
+  <Rule>
+    <Filter>([hway_num] != '')</Filter>
+    <LineSymbolizer stroke="#dc143c" />
+  </Rule>
+  <Rule>
+    <Filter>([surface] = 'unmetalled')</Filter>
+    <LineSymbolizer stroke="#ffffff" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#ff8c00" />
+  </Rule>
+</Style>
+<Style name="road_centrelines-edge" filter-mode="first">
+  <Rule>
+    <Filter>([lane_count] &gt; 2)</Filter>
+    <LineSymbolizer stroke-width="6" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 2)</Filter>
+    <LineSymbolizer stroke-width="5" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([lane_count] = 1)</Filter>
+    <LineSymbolizer stroke-width="4" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="road_centrelines"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>road_centrelines-edge</StyleName>
+    <StyleName>road_centrelines-centre</StyleName>
+    <StyleName>road_centrelines-dash</StyleName>  </Layer>
+
+<Layer name="height_points"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+</Map>
